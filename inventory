@@ -1,1 +1,1 @@
-localhost ansible_connection=public
+localhost ansible_connection=ec2-34-217-105-186.us-west-2.compute.amazonaws.com
