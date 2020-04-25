@@ -14,7 +14,7 @@
 
 - name: Create EC2 instances
   ec2:
-    key_name: Jenkins_demo
+    key_name: Jumpbox-key
     instance_type: t2.nano
     image: ami-0d1cd67c26f5fca19
     user_data: "{{ USERDATA }}"
